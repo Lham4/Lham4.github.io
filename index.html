@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+<head>
+		<style type="text/css">
+			h1 {color:brown;}
+			h1 {font-family:Georgia;}
+			p.title {font-size:140%;}
+			p.small {font-size:90%;}
+			h1 {text-align:center;}
+			button {text-align:center;}
+			p.small {text-align:center;}
+			p.title {text-align:center;}
+			body {background-color:#D3D3D3;}
+			p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+		</style>
+</head>
+<body>
+		<title>Just a test!</title>
+		<h1>The Potato</h1>
+		<p class="title"><em>This a friendly test website.</em></p>
+
+		<script type="text/javascript">
+			function clickalertd() {
+				var name = prompt("Enter name");
+				var age = prompt("Enter age");
+				if (age >= 18) {
+					alert(name+" You are "+age+" so you can drive!");
+				}
+				if (age < 18) {
+					alert(name+" You are only "+age+" so you cant drive!");
+				}
+			}
+
+			function Stalker() {
+				var sirname = prompt("Enter sirname");
+				var lastname = prompt("Enter lastname");
+				var petname = prompt("Enter your pet's name");
+				var age = prompt("Enter age");
+				var country = prompt("Enter country");
+				var city = prompt ("What is your citys name?")
+				var address = prompt("Enter address");
+				alert("You just gave a stalker all your information. Your name is "+sirname+" and your lastname is "+lastname+" your age is "+age+". if you didn´t know your pet's name is "+petname+". I also know where you live, your address is "+address+", "+city+", "+country+". Never give out your info like that!");
+				
+
+			}
+
+
+		</script>
+		<button type="button" onclick="Stalker()" value="info">Info</button>
+		<input type="button" onclick="clickalertd()" value="Drive?">
+
+			<p class="small"><strong>Switch language</strong><p>
+			<table align="center">
+				<td><a href="index.html">English</a></td>
+				<td><a href="Swedish.html">Svenska</a></td>
+
+			</table>
+
+			<p>
+
+
+
+</body>
+</html>
